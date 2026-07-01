@@ -1,4 +1,4 @@
-# Dubai Realty — PHP Real Estate Website
+# Dubai Realty - PHP Real Estate Website
 
 A multi-page real estate website built with PHP, MySQL, SCSS, and vanilla JavaScript.
 
@@ -134,7 +134,3 @@ scss/*.backup.scss
 - Replace `mail()` with SMTP
 - Add CSRF protection
 - Move article content to a database or CMS
-
-## Author
-
-Created by Marina Mossa.
