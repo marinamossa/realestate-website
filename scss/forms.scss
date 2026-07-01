@@ -1,0 +1,23 @@
+/* Form messages */
+.form-message {
+	margin-top: 24px;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+.form-message--success {
+	color: #fcd54c;
+}
+
+.form-message--error {
+	color: #ff6b6b;
+}
+
+.form-hidden-field {
+	position: absolute;
+	left: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}

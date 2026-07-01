@@ -1,0 +1,15 @@
+storage/*.log
+database.php
+
+node_modules/
+css/style.compiled.css
+css/style.backup.css
+scss/*.backup.scss
+
+.osp/
+
+*.zip
+*.rar
+
+.DS_Store
+Thumbs.db
