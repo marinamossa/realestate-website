@@ -1449,7 +1449,8 @@
 		position: relative;
 		width: 100%;
 		min-height: 786px;
-		height: 80vh;
+		height: 70vh;
+		max-height: 1000px;
 		background-color: $main-color-grey;
 		border: 1px solid $primary-color;
 	}

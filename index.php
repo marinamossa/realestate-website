@@ -542,121 +542,12 @@
 								</p>
 							<?php endif; ?>
 						</div>
-				<section class="rec-articles container">
-					<h2 class="rec-articles__title">Recommended articles</h2>
-					<a href="<?= page_url('blog.php'); ?>" class="rec-articles__link-page"
-						>View all articles</a
-					>
-					<div class="rec-articles__box">
-						<div class="rec-articles__item">
-							<img
-								src="<?= asset('img/rec-articles-pic-1.jpg'); ?>"
-								alt="article image"
-								height="350" />
-							<h4 class="rec-articles__item-title">
-								Investment in a tourist area
-							</h4>
-							<div class="rec-articles__item-inner">
-								<span class="rec-articles__item-date">June 23, 2024</span>
-								<h4 class="rec-articles__item-inner-title">
-									Investment in a tourist area in Dubai
-								</h4>
-								<p class="rec-articles__item-text">
-									Projects for many large domestic and foreign corporations,
-									enterprises in many elds such. Lorem ipsum dolor sit amet,
-									consectetur adipisicing elit. Praesentium illum odio veritatis
-									obcaecati id a, voluptatibus ipsam et nostrum ipsa quasi
-									dolore vero doloremque eligendi impedit quam. Fuga, eaque
-									eius?
-								</p>
-								<a
-									href="<?= article_url('dubai-real-estate-market-overview'); ?>"
-									class="rec-articles__item-link"
-									><span> Learn more</span>
-									<svg
-										width="13"
-										height="22"
-										viewBox="0 0 13 22"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path d="M12.3223 11.0234L1.00031 0.998896" />
-										<path d="M1 21.0234L12.322 10.9989" />
-									</svg>
-								</a>
-							</div>
-						</div>
-						<div class="rec-articles__item">
-							<img
-								src="<?= asset('img/rec-articles-pic-2.jpg'); ?>"
-								alt="article image"
-								height="350" />
-							<h4 class="rec-articles__item-title">
-								Discover Architecture in Dubai
-							</h4>
-							<div class="rec-articles__item-inner">
-								<span class="rec-articles__item-date">Jule 03, 2022</span>
-								<h4 class="rec-articles__item-inner-title">
-									Discover Architecture
-								</h4>
-								<p class="rec-articles__item-text">
-									Projects for many large domestic and foreign corporations,
-									enterprises in many elds such. Lorem, ipsum dolor sit amet
-									consectetur adipisicing elit. Est in nobis quis harum
-									laudantium architecto nihil. Quaerat incidunt commodi
-									voluptate delectus autem vero pariatur ab quod? At reiciendis
-									porro temporibus.
-								</p>
-								<a
-									href="<?= article_url('buying-property-in-dubai-key-tips'); ?>"
-									class="rec-articles__item-link"
-									><span> Learn more</span>
-									<svg
-										width="13"
-										height="22"
-										viewBox="0 0 13 22"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path d="M12.3223 11.0234L1.00031 0.998896" />
-										<path d="M1 21.0234L12.322 10.9989" />
-									</svg>
-								</a>
-							</div>
-						</div>
-						<div class="rec-articles__item">
-							<img
-								src="<?= asset('img/rec-articles-pic-3.jpg'); ?>"
-								alt="article image"
-								height="350" />
-							<h4 class="rec-articles__item-title">
-								Construction on the coast
-							</h4>
-							<div class="rec-articles__item-inner">
-								<span class="rec-articles__item-date">Jule 03, 2022</span>
-								<h4 class="rec-articles__item-inner-title">
-									Construction on the coast
-								</h4>
-								<p class="rec-articles__item-text">
-									Projects for many large domestic and foreign corporations,
-									enterprises in many elds such
-								</p>
-								<a
-									href="<?= article_url('buying-property-in-dubai-key-tips'); ?>"
-									class="rec-articles__item-link"
-									><span> Learn more</span>
-									<svg
-										width="13"
-										height="22"
-										viewBox="0 0 13 22"
-										fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path d="M12.3223 11.0234L1.00031 0.998896" />
-										<path d="M1 21.0234L12.322 10.9989" />
-									</svg>
-								</a>
-							</div>
-						</div>
-					</div>
-				</section>
+				<?php
+						$articles = get_articles();
+							$recommendedArticlesTitle = 'Recommended articles';
+
+							require __DIR__ . '/partials/recommended-articles.php';
+					?>
 				<div class="reviews">
 					<div class="reviews-slider">
 						<div class="reviews-slider__item">
