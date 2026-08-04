@@ -49,7 +49,7 @@ if ($searchQuery !== '') {
 	$articles = array_values($articles);
 }
 
-$articlesPerPage = 6;
+$articlesPerPage = 8;
 $currentPage = (int)($_GET['page'] ?? 1);
 
 if ($currentPage < 1) {
