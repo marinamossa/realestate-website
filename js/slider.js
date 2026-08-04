@@ -62,7 +62,7 @@ $(document).ready(function () {
 			},
 		],
 	})
-	$('.category__slider').slick({
+	/*$('.category__slider').slick({
 		dots: true,
 		infinite: true,
 		arrows: false,
@@ -94,5 +94,5 @@ $(document).ready(function () {
 				},
 			},
 		],
-	})
+	})*/
 })
