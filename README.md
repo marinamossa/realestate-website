@@ -23,6 +23,6 @@ Live Demo https://9zz.ru/
 
 ## Planned improvements
 
-Creating an offer catalog
-Adding a custom 404.php file
-Moving article content to a database or CMS
+- Creating an offer catalog
+- Adding a custom 404.php file
+- Moving article content to a database or CMS
